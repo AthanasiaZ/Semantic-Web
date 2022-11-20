@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:krweb="http://www.krweb.org/"
+	xml:base="http://www.krweb.org/">
+	
+    <!-- Classes -->
+<rdfs:Class rdf:ID="Person"/>
+	<rdfs:Class rdf:ID="Student">
+		<rdfs:subClassOf rdf:resource="#Person"/>
+	</rdfs:Class>
+	<rdfs:Class rdf:ID="Professor">
+		<rdfs:subClassOf rdf:resource="#Person"/>
+	</rdfs:Class>
+	<rdfs:Class rdf:ID="Department"/>
+	<rdfs:Class rdf:ID="Lesson"/>
+    <rdfs:Class rdf:ID="Classroom"/>
+
+<!-- Person_Properties -->
+<rdf:Property rdf:about="http://www.krweb.org/has_name">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/has_phone">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/has_email">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/has_age">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Integer"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/member_of">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Person"/>
+    <rdfs:range rdf:resource="http://www.krweb.org/#Department"/>
+</rdf:Property>	
+
+<!-- Professor_Properties -->
+<rdf:Property rdf:about="http://www.krweb.org/teaches">
+   <rdfs:domain rdf:resource="http://www.krweb.org/#Professor"/>
+   <rdfs:range rdf:resource="http://www.krweb.org/#Lesson"/>
+</rdf:Property>
+
+<!-- Lesson_Properties -->
+<rdf:Property rdf:about="http://www.krweb.org/les_name">
+   <rdfs:domain rdf:resource="http://www.krweb.org/#Lesson"/>
+   <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/taught_by">
+   <rdfs:domain rdf:resource="http://www.krweb.org/#Lesson"/>
+   <rdfs:range rdf:resource="http://www.krweb.org/#Professor"/>
+</rdf:Property>
+
+<!-- Department_Properties -->
+<rdf:Property rdf:about="http://www.krweb.org/dep_name">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Department"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/dep_city">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Department"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<!-- Classroom_Properties -->
+<rdf:Property rdf:about="http://www.krweb.org/room_name">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Classroom"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/room_capacity">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Classroom"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Integer"/>
+</rdf:Property>
+<rdf:Property rdf:about="http://www.krweb.org/room_department">
+    <rdfs:domain rdf:resource="http://www.krweb.org/#Classroom"/>
+    <rdfs:range rdf:resource="http://www.krweb.org/#Department"/>
+</rdf:Property>
+
+<!-- Departments -->
+<!-- Patra's Departments -->
+<rdf:Description rdf:about="http://www.krweb.org/CEID">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>CEID</krweb:dep_name>
+		<krweb:dep_city>Patra</krweb:dep_city>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.krweb.org/ECE">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>ECE</krweb:dep_name>
+		<krweb:dep_city>Patra</krweb:dep_city>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.krweb.org/MEAD">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>MEAD</krweb:dep_name>
+		<krweb:dep_city>Patra</krweb:dep_city>
+	</rdf:Description>
+<!-- Different Cities' Departments -->
+    <rdf:Description rdf:about="http://www.krweb.org/MECH">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>MECH</krweb:dep_name>
+		<krweb:dep_city>Athens</krweb:dep_city>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.krweb.org/CS">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>CS</krweb:dep_name>
+		<krweb:dep_city>Ioannina</krweb:dep_city>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.krweb.org/JOUR">
+		<rdf:type rdf:resource="http://www.krweb.org/#Department"/>
+		<krweb:dep_name>JOUR</krweb:dep_name>
+		<krweb:dep_city>Thessaloniki</krweb:dep_city>
+	</rdf:Description>
+
+<!-- Professors -->
+    <!--Professor1-->
+<rdf:Description rdf:about="http://www.krweb.org/athanasiazekyria">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Athanasia Zekyria</krweb:has_name>
+    <krweb:has_phone>6901234567</krweb:has_phone>
+    <krweb:has_age>33</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/bioinformatics" />
+</rdf:Description>
+     <!--Professor2-->
+<rdf:Description rdf:about="http://www.krweb.org/besianaagko">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Besiana Agko</krweb:has_name>
+    <krweb:has_phone>691234567</krweb:has_phone>
+    <krweb:has_age>33</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/dataanalysis" />
+</rdf:Description>
+     <!--Professor3-->
+<rdf:Description rdf:about="http://www.krweb.org/aristeakorba">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Aristea Korba</krweb:has_name>
+    <krweb:has_phone>692345678</krweb:has_phone>
+    <krweb:has_age>35</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/agiledevelopment" />
+</rdf:Description>
+    <!--Professor4-->
+<rdf:Description rdf:about="http://www.krweb.org/marcelacedzidlo">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Marcela Cedzidlo</krweb:has_name>
+    <krweb:has_phone>693456789</krweb:has_phone>
+    <krweb:has_age>36</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/JOUR"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/english" />
+</rdf:Description>
+    <!--Professor5-->
+<rdf:Description rdf:about="http://www.krweb.org/fotinigiannopoulou">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Fotini Giannopoulou</krweb:has_name>
+    <krweb:has_phone>694567891</krweb:has_phone>
+    <krweb:has_age>33</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/MECH"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/robotics" />
+</rdf:Description>
+    <!--Professor6-->
+<rdf:Description rdf:about="http://www.krweb.org/fotinimortzou">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Fotini Mortzou</krweb:has_name>
+    <krweb:has_phone>695678912</krweb:has_phone>
+    <krweb:has_age>33</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/ECE"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/softwareenginneering" />
+</rdf:Description>
+    <!--Professor7-->
+<rdf:Description rdf:about="http://www.krweb.org/mariadrebela">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Maria Drebela</krweb:has_name>
+    <krweb:has_phone>696789123</krweb:has_phone>
+    <krweb:has_age>32</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/MEAD"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/C++" />
+</rdf:Description>
+    <!--Professor8-->
+<rdf:Description rdf:about="http://www.krweb.org/elladanikolaou">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Ellada Nikolaou</krweb:has_name>
+    <krweb:has_phone>697891234</krweb:has_phone>
+    <krweb:has_age>32</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/WEB" />
+</rdf:Description>
+    <!--Professor9-->
+ <rdf:Description rdf:about="http://www.krweb.org/gioustinalantious">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Gioustina Lantious</krweb:has_name>
+    <krweb:has_phone>698912345</krweb:has_phone>
+    <krweb:has_age>32</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/Electronics" />
+</rdf:Description>
+     <!--Professor9-->
+ <rdf:Description rdf:about="http://www.krweb.org/panagiotakouremada">
+    <rdf:type rdf:resource="http://www.krweb.org/#Professor"/>
+    <krweb:has_name>Panagiota Kouremada</krweb:has_name>
+    <krweb:has_phone>699123456</krweb:has_phone>
+    <krweb:has_age>35</krweb:has_age>
+    <krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+    <krweb:teaches rdf:resource="http://www.krweb.org/Plastelini1" />
+</rdf:Description>
+
+<!-- Students -->
+<!-- Student1 -->
+<rdf:Description rdf:about="http://www.krweb.org/nikolaosloukisas">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Nikolaos Loukisas</krweb:has_name>
+		<krweb:has_phone>6900000001</krweb:has_phone>
+		<krweb:has_age>19</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student2 -->
+<rdf:Description rdf:about="http://www.krweb.org/konstantinosdaglas">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Konstantinos Daglas</krweb:has_name>
+		<krweb:has_phone>6900000002</krweb:has_phone>
+		<krweb:has_age>20</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student3 -->
+<rdf:Description rdf:about="http://www.krweb.org/dimitriosaltanis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Dimitrios Altanis</krweb:has_name>
+		<krweb:has_phone>6900000003</krweb:has_phone>
+		<krweb:has_age>25</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student4 -->
+<rdf:Description rdf:about="http://www.krweb.org/giorgosgiannopoulos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Giorgos Giannopoulos</krweb:has_name>
+		<krweb:has_phone>6900000004</krweb:has_phone>
+		<krweb:has_age>22</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student5 -->
+<rdf:Description rdf:about="http://www.krweb.org/klodifilaj">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Klodi Filaj</krweb:has_name>
+		<krweb:has_phone>6900000005</krweb:has_phone>
+		<krweb:has_age>28</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student6 -->
+<rdf:Description rdf:about="http://www.krweb.org/konstantinosakrivos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Konstantinos Akrivos</krweb:has_name>
+		<krweb:has_phone>6900000006</krweb:has_phone>
+		<krweb:has_age>22</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CEID"/>
+</rdf:Description>
+<!-- Student7 -->
+<rdf:Description rdf:about="http://www.krweb.org/minaspapakonstantinou">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Minas Papakonstantinou</krweb:has_name>
+		<krweb:has_phone>6900000007</krweb:has_phone>
+		<krweb:has_age>25</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+</rdf:Description>
+<!-- Student8 -->
+<rdf:Description rdf:about="http://www.krweb.org/ioannisdimopoulos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Ioannis Dimopoulos</krweb:has_name>
+		<krweb:has_phone>6900000008</krweb:has_phone>
+		<krweb:has_age>18</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+</rdf:Description>
+<!-- Student9 -->
+<rdf:Description rdf:about="http://www.krweb.org/vasileiosgkotsopoulos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Vasileios Gkotsopoulos</krweb:has_name>
+		<krweb:has_phone>690000009</krweb:has_phone>
+		<krweb:has_age>23</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+</rdf:Description>
+<!-- Student10 -->
+<rdf:Description rdf:about="http://www.krweb.org/ioannistsikelis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Ioannis Tsikelis</krweb:has_name>
+		<krweb:has_phone>6900000010</krweb:has_phone>
+		<krweb:has_age>21</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/CS"/>
+</rdf:Description>
+<!-- Student11 -->
+<rdf:Description rdf:about="http://www.krweb.org/ioannisloudaros">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Ioannis Loudaros</krweb:has_name>
+		<krweb:has_phone>6900000011</krweb:has_phone>
+		<krweb:has_age>21</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/MECH"/>
+</rdf:Description>
+<!-- Student12 -->
+<rdf:Description rdf:about="http://www.krweb.org/trifonaskarantonis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Trifonas Karantonis</krweb:has_name>
+		<krweb:has_phone>6900000012</krweb:has_phone>
+		<krweb:has_age>24</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/MECH"/>
+</rdf:Description>
+<!-- Student13 -->
+<rdf:Description rdf:about="http://www.krweb.org/giorgospapakonstantinou">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Giorgos Papakonstantinou</krweb:has_name>
+		<krweb:has_phone>6900000013</krweb:has_phone>
+		<krweb:has_age>26</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/MEAD"/>
+</rdf:Description>
+<!-- Student14 -->
+<rdf:Description rdf:about="http://www.krweb.org/panagiotismpogas">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Panagiotis Mpogas</krweb:has_name>
+		<krweb:has_phone>6900000014</krweb:has_phone>
+		<krweb:has_age>22</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/MEAD"/>
+</rdf:Description>
+<!-- Student15 -->
+<rdf:Description rdf:about="http://www.krweb.org/panagiotispipis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Panagiotis Pipis</krweb:has_name>
+		<krweb:has_phone>6900000015</krweb:has_phone>
+		<krweb:has_age>19</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/MEAD"/>
+</rdf:Description>
+<!-- Student16 -->
+<rdf:Description rdf:about="http://www.krweb.org/nikosdimopoulos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Nikos Dimopoulos</krweb:has_name>
+		<krweb:has_phone>6900000016</krweb:has_phone>
+		<krweb:has_age>22</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/JOUR"/>
+</rdf:Description>
+<!-- Student17 -->
+<rdf:Description rdf:about="http://www.krweb.org/errikosanastasopoulos">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Errikos Anastasopoulos</krweb:has_name>
+		<krweb:has_phone>6900000017</krweb:has_phone>
+		<krweb:has_age>24</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/JOUR"/>
+</rdf:Description>
+<!-- Student18 -->
+<rdf:Description rdf:about="http://www.krweb.org/ksenofonpapanikolaou">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Ksenofon Papanikolaou</krweb:has_name>
+		<krweb:has_phone>6900000018</krweb:has_phone>
+		<krweb:has_age>22</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/JOUR"/>
+</rdf:Description>
+<!-- Student19 -->
+<rdf:Description rdf:about="http://www.krweb.org/mixailvardalis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Mixail Vardalis</krweb:has_name>
+		<krweb:has_phone>6900000019</krweb:has_phone>
+		<krweb:has_age>20</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/ECE"/>
+</rdf:Description>
+<!-- Student20 -->
+<rdf:Description rdf:about="http://www.krweb.org/orfeasnonis">
+		<rdf:type rdf:resource="http://www.krweb.org/#Student"/>
+		<krweb:has_name>Orfeas Nonis</krweb:has_name>
+		<krweb:has_phone>690004060</krweb:has_phone>
+		<krweb:has_age>20</krweb:has_age>
+		<krweb:member_of rdf:resource="http://www.krweb.org/ECE"/>
+</rdf:Description>
+
+<!-- Lessons -->
+<!--Lesson1-->
+<rdf:Description rdf:about="http://www.krweb.org/bioinformatics">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Bioinformatics</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/athanasiazekyria" /> 
+</rdf:Description>
+<!--Lesson2-->
+<rdf:Description rdf:about="http://www.krweb.org/dataanalysis">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Data Analysis</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/besianaagko" /> 
+</rdf:Description>
+<!--Lesson3-->
+<rdf:Description rdf:about="http://www.krweb.org/agiledevelopment">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Agile Development</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/aristeakorba" /> 
+</rdf:Description>
+<!--Lesson4-->
+<rdf:Description rdf:about="http://www.krweb.org/english">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>English</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/marcelacedzidlo" /> 
+</rdf:Description>
+<!--Lesson5-->
+<rdf:Description rdf:about="http://www.krweb.org/robotics">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Robotics</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/fotinigiannopoulou" /> 
+</rdf:Description>
+<!--Lesson6-->
+<rdf:Description rdf:about="http://www.krweb.org/softwareenginneering">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Software Engineering</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/fotinimortzou" /> 
+</rdf:Description>
+<!--Lesson7-->
+<rdf:Description rdf:about="http://www.krweb.org/C++">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>C++</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/mariadrebela" /> 
+</rdf:Description>
+<!--Lesson8-->
+<rdf:Description rdf:about="http://www.krweb.org/WEB">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>WEB</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/elladanikolaou" /> 
+</rdf:Description>
+<!--Lesson9-->
+<rdf:Description rdf:about="http://www.krweb.org/Electronics">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Electronics</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/gioustinalantious" /> 
+</rdf:Description>
+<!--Lesson10-->
+<rdf:Description rdf:about="http://www.krweb.org/Plastelini1">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Plastelini1</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/panagiotakouremada" /> 
+</rdf:Description>
+<!--Lesson11-->
+<rdf:Description rdf:about="http://www.krweb.org/Plastelini2">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Plastelini2</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/panagiotakouremada" /> 
+</rdf:Description>
+<!--Lesson12-->
+<rdf:Description rdf:about="http://www.krweb.org/Plastelini3">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Plastelini3</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/panagiotakouremada" /> 
+</rdf:Description>
+<!--Lesson13-->
+<rdf:Description rdf:about="http://www.krweb.org/bioinformatics2">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Bioinformatics2</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/athanasiazekyria" /> 
+</rdf:Description>
+<!--Lesson14-->
+<rdf:Description rdf:about="http://www.krweb.org/datastructures">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Data Structures</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/besianaagko" /> 
+</rdf:Description>
+<!--Lesson15-->
+<rdf:Description rdf:about="http://www.krweb.org/databases">
+    <rdf:type rdf:resource="http://www.krweb.org/#Lesson"/>
+    <krweb:les_name>Data Bases</krweb:les_name>
+    <krweb:taught_by rdf:resource="http://www.krweb.org/aristeakorba" /> 
+</rdf:Description>
+
+<!-- Classrooms -->
+<!--CEID Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CEID" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CEID" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CEID" />
+</rdf:Description>
+
+<!--ECE Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A1">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A1</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/ECE" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B1">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B1</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/ECE" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C1">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C1</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/ECE" />
+</rdf:Description>
+
+<!--MEAD Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A2">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A2</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MEAD" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B2">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B2</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MEAD" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C2">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C2</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MEAD" />
+</rdf:Description>
+
+<!--MECH Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A3">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A3</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MECH" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B3">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B3</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MECH" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C3">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C3</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/MECH" />
+</rdf:Description>
+
+<!--CS Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A4">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A4</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CS" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B4">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B4</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CS" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C4">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C4</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/CS" />
+</rdf:Description>
+
+<!--JOUR Classrooms-->
+<rdf:Description rdf:about="http://www.krweb.org/A5">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>A5</krweb:room_name>
+    <krweb:room_capacity>400</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/JOUR" />
+</rdf:Description>
+<rdf:Description rdf:about="http://www.krweb.org/B5">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>B5</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/JOUR" />
+</rdf:Description>
+    <rdf:Description rdf:about="http://www.krweb.org/C5">
+    <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
+    <krweb:room_name>C5</krweb:room_name>
+    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_department rdf:resource="http://www.krweb.org/JOUR" />
+</rdf:Description>
+
+</rdf:RDF>
