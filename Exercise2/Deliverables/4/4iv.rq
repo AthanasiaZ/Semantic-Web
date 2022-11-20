@@ -1,0 +1,13 @@
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX krweb:<http://www.krweb.org/>
+SELECT ?room_name 
+WHERE
+{
+	?classroom rdf:type  <http://www.krweb.org/#Classroom>.
+	?classroom krweb:room_department ?dep.
+	?dep krweb:dep_city "Patra".
+	?classroom krweb:room_name ?room_name.
+    ?classroom krweb:room_capacity ?cap.
+    FILTER (?cap>"150")   
+}

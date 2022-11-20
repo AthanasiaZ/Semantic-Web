@@ -477,7 +477,7 @@
     <rdf:Description rdf:about="http://www.krweb.org/C">
     <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
     <krweb:room_name>C</krweb:room_name>
-    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_capacity>140</krweb:room_capacity>
     <krweb:room_department rdf:resource="http://www.krweb.org/CEID" />
 </rdf:Description>
 
@@ -497,7 +497,7 @@
     <rdf:Description rdf:about="http://www.krweb.org/C1">
     <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
     <krweb:room_name>C1</krweb:room_name>
-    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_capacity>140</krweb:room_capacity>
     <krweb:room_department rdf:resource="http://www.krweb.org/ECE" />
 </rdf:Description>
 
@@ -517,7 +517,7 @@
     <rdf:Description rdf:about="http://www.krweb.org/C2">
     <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
     <krweb:room_name>C2</krweb:room_name>
-    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_capacity>140</krweb:room_capacity>
     <krweb:room_department rdf:resource="http://www.krweb.org/MEAD" />
 </rdf:Description>
 
@@ -531,7 +531,7 @@
 <rdf:Description rdf:about="http://www.krweb.org/B3">
     <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
     <krweb:room_name>B3</krweb:room_name>
-    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_capacity>140</krweb:room_capacity>
     <krweb:room_department rdf:resource="http://www.krweb.org/MECH" />
 </rdf:Description>
     <rdf:Description rdf:about="http://www.krweb.org/C3">
@@ -577,7 +577,7 @@
     <rdf:Description rdf:about="http://www.krweb.org/C5">
     <rdf:type rdf:resource="http://www.krweb.org/#Classroom"/>
     <krweb:room_name>C5</krweb:room_name>
-    <krweb:room_capacity>150</krweb:room_capacity>
+    <krweb:room_capacity>120</krweb:room_capacity>
     <krweb:room_department rdf:resource="http://www.krweb.org/JOUR" />
 </rdf:Description>
 
