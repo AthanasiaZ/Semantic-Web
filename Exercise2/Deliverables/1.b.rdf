@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:krweb="http://www.krweb.org/">
+
+	<rdf:Description rdf:about="http://www.krweb.org/iliada">
+		<krweb:info rdf:nodeID="Info"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="Info">
+		<krweb:connected_from>Poihth</krweb:connected_from>
+		<krweb:connected_in_the>8th_century</krweb:connected_in_the>
+		<krweb:connected_in>Ionia</krweb:connected_in>
+	</rdf:Description>
+	
+</rdf:RDF> 

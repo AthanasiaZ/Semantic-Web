@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:krweb="http://www.krweb.org/">
+	
+	<rdf:Description rdf:about="http://www.krweb.org/statement1">
+		<rdf:subject rdf:resource="http://www.krweb.org/CEID" />
+		<rdf:predicate rdf:resource="http://www.krweb.org/located" />
+		<rdf:object>Rio</rdf:object>
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="google">
+		<krweb:anaferei_oti rdf:resource="http://www.krweb.org/statement1"/>
+	</rdf:Description>
+</rdf:RDF>
