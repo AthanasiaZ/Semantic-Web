@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Stores\ Student\ data\ \r\n
+comment1.params=name\ age\ phone
+comment1.target=Student(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ printStudent()
+numComments=3

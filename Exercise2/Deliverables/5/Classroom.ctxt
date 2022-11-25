@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Classroom
+comment0.text=\r\n\ Stores\ Classroom\ data\ \r\n
+comment1.params=room_name\ room_apacity
+comment1.target=Classroom(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ printClassroom()
+numComments=3

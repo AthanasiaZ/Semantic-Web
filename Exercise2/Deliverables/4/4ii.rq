@@ -7,5 +7,5 @@ WHERE
 	?student rdf:type  <http://www.krweb.org/#Student>.
 	?student krweb:has_phone ?phone.
 	?student krweb:has_age ?age.
-	FILTER (?age>="23")
+	FILTER (?age>"23")
 }
