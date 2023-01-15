@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/11/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2022/11/untitled-ontology-3">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Sci-Fi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Every_Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Shows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultural_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#News"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre-School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Comedies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Musicals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Science_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_Shows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Art&amp;Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reality_TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitcom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sci-Fi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Entertainmet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heartfelt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teens_Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#True_Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids_Animation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popular_Shows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animation"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anime"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultural_Documentaries"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#Adults"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#Adults"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Documentaries"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Every_Day"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Shows"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fantasy"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heartfelt"/>
+        <Class IRI="#Teens_Entertainmet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#History_Documentaries"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International"/>
+        <Class IRI="#News"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Animation"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Comedies"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Education"/>
+        <Class IRI="#Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Entertainment"/>
+        <Class IRI="#Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Musicals"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids_Sci-Fi"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language_Learning"/>
+        <Class IRI="#Kids_Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musical"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National"/>
+        <Class IRI="#News"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#News"/>
+        <Class IRI="#Adults"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-School"/>
+        <Class IRI="#Kids_Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiz"/>
+        <Class IRI="#Kids_Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reality_TV"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romance"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sci-Fi"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Science_Documentaries"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sitcom"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Documentaries"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Action"/>
+        <Class IRI="#Teens_Entertainmet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Documentaries"/>
+        <Class IRI="#Teens_Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Drama"/>
+        <Class IRI="#Teens_Entertainmet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Education"/>
+        <Class IRI="#Teens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Entertainmet"/>
+        <Class IRI="#Teens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Romance"/>
+        <Class IRI="#Teens_Entertainmet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#True_Crime"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teens_Art&amp;Science"/>
+        <Class IRI="#Teens_Education"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Animation"/>
+        <Class IRI="#Anime"/>
+        <Class IRI="#Asian"/>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Every_Day"/>
+        <Class IRI="#Fantasy"/>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Musical"/>
+        <Class IRI="#Reality_TV"/>
+        <Class IRI="#Romance"/>
+        <Class IRI="#Sci-Fi"/>
+        <Class IRI="#Sitcom"/>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Thriller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adults"/>
+        <Class IRI="#ID"/>
+        <Class IRI="#Kids"/>
+        <Class IRI="#New_Shows"/>
+        <Class IRI="#Popular_Shows"/>
+        <Class IRI="#Teens"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Football"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultural_Documentaries"/>
+        <Class IRI="#Environmental_Documentaries"/>
+        <Class IRI="#History_Documentaries"/>
+        <Class IRI="#Science_Documentaries"/>
+        <Class IRI="#Social_Documentaries"/>
+        <Class IRI="#True_Crime"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Education"/>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#News"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Family_Shows"/>
+        <Class IRI="#Kids_Animation"/>
+        <Class IRI="#Kids_Comedies"/>
+        <Class IRI="#Kids_Musicals"/>
+        <Class IRI="#Kids_Sci-Fi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Heartfelt"/>
+        <Class IRI="#Teens_Action"/>
+        <Class IRI="#Teens_Drama"/>
+        <Class IRI="#Teens_Romance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#International"/>
+        <Class IRI="#National"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kids_Education"/>
+        <Class IRI="#Kids_Entertainment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Language_Learning"/>
+        <Class IRI="#Pre-School"/>
+        <Class IRI="#Quiz"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Teens_Documentaries"/>
+        <Class IRI="#Teens_Art&amp;Science"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Teens_Education"/>
+        <Class IRI="#Teens_Entertainmet"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#Cultural_Documentaries"/>
+        <Class IRI="#History_Documentaries"/>
+        <Class IRI="#Social_Documentaries"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Heartfelt"/>
+        <Class IRI="#Teens_Drama"/>
+        <Class IRI="#Teens_Romance"/>
+    </DisjointUnion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
