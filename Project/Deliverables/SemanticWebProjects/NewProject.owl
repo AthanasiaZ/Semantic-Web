@@ -1,0 +1,1903 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/besiana/ontologies/2023/0/NewProject"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/besiana/ontologies/2023/0/NewProject">
+    <Prefix name="" IRI="http://www.semanticweb.org/besiana/ontologies/2023/0/NewProject"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple_Amitta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrongAlcoholic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coca_Cola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dole_Juice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isForUnder18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4th_July"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlcoholicCocktail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainMorgan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LemonSoda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spritzer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fizzes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grilled_Pineapple_Moscow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMoreFamous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighBall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAlcoholic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Long_Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoreFruits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Irish_Buck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belvedere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tropical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberIngredients"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CherrySoda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dry_Martini"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAlcoholVol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corona_Beer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourMix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoreIngredients"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ancestrals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNoAlcohol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIcecubes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoreIcecubes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pina_Colada"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martini"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcoholic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Old_Fashioned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whiskey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Absolut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amitta_Lemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Vieille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightAlcoholic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tart_Juice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sparkling_Rosemary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightCocktail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gin_Buck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple_Martini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cobbler"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cherry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLessAlcohol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Real_Juice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santa_Margherita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strawberry_Mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cherry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sierra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoftDrink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orange_Serbet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gordons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whiskey_Sour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLessFamous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arka_Juice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isForAdults"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moscow_Mule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corona"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixFruits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tequila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bacardi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liqueur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLessFruits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don_Julio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shirley_Temple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bolthouse_Juice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pineapple_MaiTai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daiquiry"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSameSugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Alcoholic"/>
+        <ObjectComplementOf>
+            <Class IRI="#NonAlcoholic"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AlcoholicCocktail"/>
+        <ObjectComplementOf>
+            <Class IRI="#LightCocktail"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ancestrals"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#StrongAlcoholic"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Buck"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Gin"/>
+                    <Class IRI="#Lemon"/>
+                    <Class IRI="#Vodka"/>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cobbler"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Juice"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Gin"/>
+                    <Class IRI="#Vodka"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fizzes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LightCocktail"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Juice"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HighBall"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Alcoholic"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LightAlcoholic"/>
+        <ObjectUnionOf>
+            <Class IRI="#Beer"/>
+            <Class IRI="#Wine"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LightCocktail"/>
+        <ObjectComplementOf>
+            <Class IRI="#AlcoholicCocktail"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Martini"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#StrongAlcoholic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MixFruits"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Apple"/>
+            <Class IRI="#Strawberry"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NonAlcoholic"/>
+        <ObjectComplementOf>
+            <Class IRI="#Alcoholic"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Punch"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LightCocktail"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Juice"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SoftDrink"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Cola"/>
+                    <Class IRI="#Soda"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SourMix"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Lemon"/>
+            <Class IRI="#Orange"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sours"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#AlcoholicCocktail"/>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Class IRI="#Alcoholic"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Spritzer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LightCocktail"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <NamedIndividual IRI="#LemonSoda"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#StrongAlcoholic"/>
+        <ObjectUnionOf>
+            <Class IRI="#Rum"/>
+            <Class IRI="#Tequila"/>
+            <Class IRI="#Whiskey"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tropical"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LightCocktail"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <NamedIndividual IRI="#Pineapple"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Alcoholic"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlcoholicCocktail"/>
+        <Class IRI="#Cocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ancestrals"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buck"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cherry"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cobbler"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocktail"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cola"/>
+        <Class IRI="#NonAlcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fizzes"/>
+        <Class IRI="#LightCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighBall"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#NonAlcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemon"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightAlcoholic"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightCocktail"/>
+        <Class IRI="#Cocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liqueur"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martini"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixFruits"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAlcoholic"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pineapple"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch"/>
+        <Class IRI="#LightCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rose"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soda"/>
+        <Class IRI="#NonAlcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoftDrink"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourMix"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sours"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spritzer"/>
+        <Class IRI="#LightCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <Class IRI="#Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrongAlcoholic"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tequila"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tropical"/>
+        <Class IRI="#LightCocktail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whiskey"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="#Alcoholic"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Alcoholic"/>
+        <Class IRI="#NonAlcoholic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AlcoholicCocktail"/>
+        <Class IRI="#LightCocktail"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Liqueur"/>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Whiskey"/>
+        <Class IRI="#Wine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cherry"/>
+        <Class IRI="#Orange"/>
+        <Class IRI="#Pineapple"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Red"/>
+        <Class IRI="#Rose"/>
+        <Class IRI="#White"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Vodka"/>
+        <NamedIndividual IRI="#Absolut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lemon"/>
+        <NamedIndividual IRI="#Amitta_Lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apple"/>
+        <NamedIndividual IRI="#Apple_Amitta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martini"/>
+        <NamedIndividual IRI="#Apple_Martini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MixFruits"/>
+        <NamedIndividual IRI="#Arka_Juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="#Bacardi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vodka"/>
+        <NamedIndividual IRI="#Belvedere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orange"/>
+        <NamedIndividual IRI="#Bolthouse_Juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="#CaptainMorgan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Cherry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Soda"/>
+        <NamedIndividual IRI="#CherrySoda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spritzer"/>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fizzes"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cola"/>
+        <NamedIndividual IRI="#Coca_Cola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beer"/>
+        <NamedIndividual IRI="#Corona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beer"/>
+        <NamedIndividual IRI="#Corona_Beer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sours"/>
+        <NamedIndividual IRI="#Daiquiry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pineapple"/>
+        <NamedIndividual IRI="#Dole_Juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tequila"/>
+        <NamedIndividual IRI="#Don_Julio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martini"/>
+        <NamedIndividual IRI="#Dry_Martini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cobbler"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Buck"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="#Gordons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tropical"/>
+        <NamedIndividual IRI="#Grilled_Pineapple_Moscow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Buck"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftDrink"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whiskey"/>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Buck"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rose"/>
+        <NamedIndividual IRI="#La_Vieille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Soda"/>
+        <NamedIndividual IRI="#LemonSoda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HighBall"/>
+        <NamedIndividual IRI="#Long_Island"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SourMix"/>
+        <NamedIndividual IRI="#Loux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HighBall"/>
+        <NamedIndividual IRI="#Moscow_Mule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ancestrals"/>
+        <NamedIndividual IRI="#Old_Fashioned"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Orange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch"/>
+        <NamedIndividual IRI="#Orange_Serbet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tropical"/>
+        <NamedIndividual IRI="#Pina_Colada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liqueur"/>
+        <NamedIndividual IRI="#Pinaq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Pineapple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tropical"/>
+        <NamedIndividual IRI="#Pineapple_MaiTai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strawberry"/>
+        <NamedIndividual IRI="#Real_Juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cobbler"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White"/>
+        <NamedIndividual IRI="#Santa_Margherita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fizzes"/>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red"/>
+        <NamedIndividual IRI="#Sierra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spritzer"/>
+        <NamedIndividual IRI="#Sparkling_Rosemary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Juice"/>
+        <NamedIndividual IRI="#Strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch"/>
+        <NamedIndividual IRI="#Strawberry_Mint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cherry"/>
+        <NamedIndividual IRI="#Tart_Juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sours"/>
+        <NamedIndividual IRI="#Whiskey_Sour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftDrink"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch"/>
+        <NamedIndividual IRI="#4th_July"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Apple_Martini"/>
+        <NamedIndividual IRI="#Apple_Amitta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Apple_Martini"/>
+        <NamedIndividual IRI="#Belvedere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+        <NamedIndividual IRI="#Tart_Juice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+        <NamedIndividual IRI="#Orange_Serbet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <NamedIndividual IRI="#Daiquiry"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+        <NamedIndividual IRI="#Daiquiry"/>
+        <NamedIndividual IRI="#Pinaq"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Dry_Martini"/>
+        <NamedIndividual IRI="#Belvedere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <NamedIndividual IRI="#Gordons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <NamedIndividual IRI="#Real_Juice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <NamedIndividual IRI="#Amitta_Lemon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <NamedIndividual IRI="#Gordons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <NamedIndividual IRI="#Grilled_Pineapple_Moscow"/>
+        <NamedIndividual IRI="#Pineapple_MaiTai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+        <NamedIndividual IRI="#Amitta_Lemon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+        <NamedIndividual IRI="#Belvedere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <NamedIndividual IRI="#Coca_Cola"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+        <NamedIndividual IRI="#Absolut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+        <NamedIndividual IRI="#Daiquiry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Long_Island"/>
+        <NamedIndividual IRI="#Gordons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Long_Island"/>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Moscow_Mule"/>
+        <NamedIndividual IRI="#Gordons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Moscow_Mule"/>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+        <NamedIndividual IRI="#Old_Fashioned"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <NamedIndividual IRI="#Belvedere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <NamedIndividual IRI="#Strawberry_Mint"/>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Whiskey_Sour"/>
+        <NamedIndividual IRI="#Jack_Daniels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+        <NamedIndividual IRI="#LemonSoda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+        <NamedIndividual IRI="#Sierra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#4th_July"/>
+        <NamedIndividual IRI="#Tart_Juice"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Apple_Martini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#Belvedere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Belvedere</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Belvedere"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tart Juice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Cherry_Soda_Syrup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isForUnder18"/>
+        <NamedIndividual IRI="#Citrus_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <NamedIndividual IRI="#Corona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#Corona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Corona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#Corona_Beer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Corona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDry"/>
+        <NamedIndividual IRI="#Dry_Martini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Gage_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberIngredients"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Gin_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Grilled_Pineapple_Moscow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isForAdults"/>
+        <NamedIndividual IRI="#Irish_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Jack_And_Coke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Kentucky_Buck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberIngredients"/>
+        <NamedIndividual IRI="#Long_Island"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Long_Island"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Long_Island"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberIngredients"/>
+        <NamedIndividual IRI="#Moscow_Mule"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Old_Fashioned"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isDry"/>
+        <NamedIndividual IRI="#Old_Fashioned"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Orange_Serbet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isForUnder18"/>
+        <NamedIndividual IRI="#Orange_Serbet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Pina_Colada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Pineapple_MaiTai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Rose_Cobbler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Serbet_Fizz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Sparkling_Rosemary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Sparkling_Rosemary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#Strawberry_Mint"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isForUnder18"/>
+        <NamedIndividual IRI="#Strawberry_Mint"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBrand"/>
+        <NamedIndividual IRI="#Tart_Juice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tart Juice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Tart_Juice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <NamedIndividual IRI="#Whiskey_Sour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIcecubes"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCocktail"/>
+        <NamedIndividual IRI="#Wine_Cooler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <NamedIndividual IRI="#4th_July"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasStraw"/>
+        <NamedIndividual IRI="#4th_July"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+        <ObjectProperty IRI="#isIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+        <ObjectProperty IRI="#isIngredient"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLessAlcohol"/>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLessFruits"/>
+        <ObjectProperty IRI="#hasMoreFruits"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLessFamous"/>
+        <ObjectProperty IRI="#isMoreFamous"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasSameSugar"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasMoreIcecubes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasMoreIngredients"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLessAlcohol"/>
+        <Class IRI="#LightCocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLessFruits"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoreFruits"/>
+        <Class IRI="#LightCocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoreIcecubes"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoreIngredients"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+        <Class IRI="#Sours"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+        <Class IRI="#Tropical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLessFamous"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMoreFamous"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+        <Class IRI="#Liqueur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+        <Class IRI="#Pineapple"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLessAlcohol"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLessFruits"/>
+        <Class IRI="#LightCocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoreAlcohol"/>
+        <Class IRI="#LightCocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoreFruits"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoreIcecubes"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoreIngredients"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSameAlcohol"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSameSugar"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSecretIngredient"/>
+        <Class IRI="#Liqueur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecialIngredient"/>
+        <Class IRI="#Pineapple"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIngredient"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLessFamous"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMoreFamous"/>
+        <Class IRI="#Cocktail"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSecretIngredient"/>
+        <Class IRI="#Sours"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSpecialIngredient"/>
+        <Class IRI="#Tropical"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <DataProperty IRI="#isCocktail"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <DataProperty IRI="#isCocktail"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isForAdults"/>
+        <DataProperty IRI="#isCocktail"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isForUnder18"/>
+        <DataProperty IRI="#hasNoAlcohol"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAlcoholVol"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasBrand"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumberIngredients"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isDry"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBrand"/>
+        <Class IRI="#Ingredient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIcecubes"/>
+        <Class IRI="#Cocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <Class IRI="#LightCocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberIngredients"/>
+        <Class IRI="#Cocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStraw"/>
+        <Class IRI="#Cocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <Class IRI="#AlcoholicCocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCocktail"/>
+        <Class IRI="#Drink"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDry"/>
+        <Class IRI="#Cocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isForAdults"/>
+        <Class IRI="#Cocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isForUnder18"/>
+        <Class IRI="#LightCocktail"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAlcoholVol"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBrand"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIcecubes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNoAlcohol"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberIngredients"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStraw"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAlcoholicCocktail"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCocktail"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDry"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isForAdults"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isForUnder18"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Όλα τα ποτά είναι και υλικά.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Drink"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Ingredient"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Αν κάποιο cocktail x, έχει ως υλικό το y τότε το y είναι υλικό του x.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule5</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasIngredient"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIngredient"/>
+                <Variable IRI="urn:swrl#y"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Αν κάποιο κοκτέιλ x έχει το ίδιο ποσοστό αλκοόλ με ένα κοκτέιλ y, τότε και το x έχει το ίδιο ποσοστό αλκοόλ με το y.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule 4</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSameAlcohol"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSameAlcohol"/>
+                <Variable IRI="urn:swrl#y"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Αν κάποιο κοκτέιλ x είναι λιγότερο διάσημο από κάποιο κοκτέιλ y και το κοκτέιλ y είναι λιγότερο διάσημο από το κοκτέιλ z, τότε το κοκτέιλ x είναι λιγότερο διάσημο από το z και το z περισσότερο διάσημο από το x.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule3</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isLessFamous"/>
+                <Variable IRI="urn:swrl#NewProjectx"/>
+                <Variable IRI="urn:swrl#NewProjecty"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isLessFamous"/>
+                <Variable IRI="urn:swrl#NewProjecty"/>
+                <Variable IRI="urn:swrl#NewProjectz"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isLessFamous"/>
+                <Variable IRI="urn:swrl#NewProjectx"/>
+                <Variable IRI="urn:swrl#NewProjectz"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isMoreFamous"/>
+                <Variable IRI="urn:swrl#NewProjectz"/>
+                <Variable IRI="urn:swrl#NewProjectx"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Αν κάποιο κοκτέιλ x είναι πιο διάσημο από κάποιο κοκτέιλ y και το κοκτέιλ y είναι πιο διάσημο από το κοκτέιλ z, τότε το ποτό x είναι πιο διάσημο από το κοκτέιλ z και το κοκτέιλ z είναι λιγότερο διάσημο από το κοκτέιλ x.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule2</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isMoreFamous"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isMoreFamous"/>
+                <Variable IRI="urn:swrl#y"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isMoreFamous"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isLessFamous"/>
+                <Variable IRI="urn:swrl#z"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
